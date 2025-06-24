@@ -8,7 +8,7 @@ export default function Home() {
         background: "radial-gradient(circle at 10% 30%, #032452 20%, #0b102a 100%, #1e40af 100%)",
       }}
     >
-      <div className="h-200 sm:h-100 p-8">
+      <div className="h-200 sm:h-100 p-8 text-white">
         <h1 className="text-4xl font-bold mb-4">Welcome to the Demo Page</h1>
         <p className="mb-2">
           This is a sample page filled with lots of placeholder text to demonstrate the layout and styling of the application. You can use this area to showcase your content, features, or anything else you'd like to highlight.

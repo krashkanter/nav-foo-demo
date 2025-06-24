@@ -14,7 +14,7 @@ export default function NavBar() {
     return (
         <>
             {/* Desktop Version */}
-            <div className="hidden md:flex fixed w-screen h-30 flex-row items-center px-12 justify-between z-50 from-black/20 to-transparent bg-gradient-to-b">
+            <div className="hidden md:flex fixed w-screen h-30 flex-row items-center px-12 justify-between z-50 from-black/20 to-transparent bg-gradient-to-b text-white">
                 <div className="flex flex-row gap-2">
                     <div className="relative w-16 h-16 bg-black/40 rounded-full overflow-hidden backdrop-blur-sm shadow-md border border-black/10">
                         <Image
@@ -65,7 +65,7 @@ export default function NavBar() {
             </div>
 
             {/* Mobile Version */}
-            <div className="md:hidden fixed w-full h-20 flex flex-row items-center px-4 justify-between z-50 pt-8 from-black/30 to-transparent bg-gradient-to-b">
+            <div className="md:hidden fixed w-full h-20 flex flex-row items-center px-4 justify-between z-50 pt-8 from-black/30 to-transparent bg-gradient-to-b text-white">
                 <div className="flex flex-row gap-2 items-center">
                     <div className="relative w-16 h-16 bg-black/40 rounded-full overflow-hidden backdrop-blur-sm shadow-md border border-black/10">
                         <Image
@@ -103,7 +103,7 @@ export default function NavBar() {
                     />
 
                     {/* Popout Menu */}
-                    <div className="md:hidden fixed top-24 right-0 w-full z-50 overflow-hidden px-16">
+                    <div className="md:hidden fixed top-24 right-0 w-full z-50 overflow-hidden px-16 text-white">
                         <div className="p-4 space-y-3 flex flex-col justify-center px-12">
                             <div className="bg-black/30 hover:bg-black/40 rounded-full h-16 flex justify-center  items-center text-white font-medium transition-all duration-200 cursor-pointer shadow-2xl">
                                 Team

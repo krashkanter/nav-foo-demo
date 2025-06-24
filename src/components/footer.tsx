@@ -82,7 +82,7 @@ export default function Footer() {
 
                             <div className="flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-right w-7/12 gap-8">
                                 <div className="flex flex-col w-full lg:w-1/2 h-full">
-                                    <div className="flex justify-center lg:justify-end gap-4 mb-8">
+                                    <div className="flex justify-center lg:justify-between gap-4 mb-8">
                                         {social.map((link, index) => (
                                             <Link
                                                 key={index}
